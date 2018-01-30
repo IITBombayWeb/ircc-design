@@ -7,6 +7,8 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script src="js/parallax.js"></script>
+	<script src="js/main.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Oswald|Roboto|Roboto+Condensed" rel="stylesheet">
 
 </head>
@@ -17,13 +19,14 @@
 	<img src="img/logo.png" id="header-logo">
 	<div id="header-main">Indian institute of Technology Bombay</div>
 	<div id="header-sec">INDUSTRIAL RESEARCH AND CONSULTANCY CENTER</div>
-	<img src="img/search.png" id="header-search">
+	<input backgroung type="type" id="search-bar"></div>
 </div>
 <!-- Header End-->
 
 
 <!-- Main Begin-->
-<div id="main-ground" style="background-image: url('img/research.jpg');">
+<div id="main-ground" class="parallax-window"  data-parallax="scroll" data-image-src="img/research.jpg">
+
 	<div id=main-ground-filter>
 		<div id="about-text">We are Lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt.</div>
 		<div id="card-holder">
@@ -121,8 +124,42 @@
 	</div>
 </div>
 <!-- event End-->
+<!-- footer begin -->
+<div id="footer">
+
+	<div id="footer-sec1">
+		<div class="footer-head">Academics</div>
+			<a href="#"><li class="footer-items">Courses</li></a>
+			<a href="#"><li class="footer-items">Divisions</li></a>
+			<a href="#"><li class="footer-items">Facilities</li></a>
+			<a href="#"><li class="footer-items">Laboratory</li></a>
+
+	</div><div id="footer-sec2">
+		<div class="footer-head">Research</div>
+			<a href="#"><li class="footer-items">Divisions</li></a>
+			<a href="#"><li class="footer-items">Facilities</li></a>
+			<a href="#"><li class="footer-items">Laboratory</li></a>
+
+	</div><div id="footer-sec3">
+		<div class="footer-head">Social</div>
+			<a href="#"><li class="footer-items">Courses</li></a>
+			<a href="#"><li class="footer-items">Divisions</li></a>
+			<a href="#"><li class="footer-items">Facilities</li></a>
+			<a href="#"><li class="footer-items">Laboratory</li></a>
+	</div> 
+
+
+</div>
+<!-- footer end -->
+
+
+
+
 
 
 
 </body>
+<script type="text/javascript">
+	$('#main-ground').parallax({imageSrc: 'img/research.jpg'});
+</script>
 </html>
