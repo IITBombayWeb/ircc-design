@@ -153,6 +153,7 @@ body,html{
 	width: 19vw !important;
 	margin: 1vw;
 	height: 16vw;
+	margin-top: 5vw;
 	position: absolute;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -176,6 +177,7 @@ body,html{
 	margin: 1vw;
 	height: 30vh;
 	height: 16.14vw;
+	margin-top: 5vw;
 	position: absolute;
 	background-color: rgba(0,0,0,0.1);
 	 -webkit-transition: all 0.5s;
@@ -195,7 +197,7 @@ body,html{
 
 .card-title{
 	margin-top: 33vh;
-	margin-top: 17.75vw;
+	margin-top: 1.2vw;
 	width: 21vw;
 	text-align: center;
 	position: absolute;
