@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IRCC Home</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script src="js/parallax.js"></script>
+	<script src="js/main.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Oswald|Roboto|Roboto+Condensed" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- Header Begin-->
+<div id="header">
+	<img src="img/logo.png" id="header-logo">
+	<div id="header-main">Indian institute of Technology Bombay</div>
+	<div id="header-sec">INDUSTRIAL RESEARCH AND CONSULTANCY CENTER</div>
+	<input backgroung type="type" id="search-bar"></div>
+</div>
+<!-- Header End-->
+<!-- Header Begin-->
+<div id="search-ground" class="container-fluid">
+	<div class="row">
+		<div id="filter-ground" class="col-md-4">
+			<div id="filter-head">Filter by</div>
+			
+			<div class="filter-type">
+			<div class="filter-title">Faculty</div>
+			<div class="filter-options">
+				<input class="filter-opt" type="checkbox" name="">Lorem ipsum<br/>
+				<input class="filter-opt" type="checkbox" name="">Dolor sit amet<br/>
+				<input class="filter-opt" type="checkbox" name="">Voluptatem accusantium<br/>
+				<input class="filter-opt" type="checkbox" name="">Nemo enim<br/>
+				<input class="filter-opt" type="checkbox" name="">Ratione voluptatem<br/>
+				<input class="filter-opt" type="checkbox" name="">Reprehenderit<br/>
+
+				
+				<div class="fil1-hid">
+					<input class="filter-opt" type="checkbox" name="">Accusantium<br/>
+					<input class="filter-opt" type="checkbox" name="">Consequuntur magni<br/>
+					<input class="filter-opt" type="checkbox" name="">Magnam aliquam<br/>
+					<input class="filter-opt" type="checkbox" name="">Commodi consequatur<br/>
+					<input class="filter-opt" type="checkbox" name="">Explicabo<br/>
+					<input class="filter-opt" type="checkbox" name="">Numquam<br/>
+				</div>
+				<div id="sh-mr1" class="show-more-opt" onclick="showMore(1)">Show more</div>
+			</div>
+			</div>
+
+
+			<div class="filter-type">
+			<div class="filter-title">Research Areas</div>
+			<div class="filter-options">
+				<input class="filter-opt" type="checkbox" name="">Minim veniam<br/>
+				<input class="filter-opt" type="checkbox" name="">Accusantium doloremque<br/>
+				<input class="filter-opt" type="checkbox" name="">Numquam eius modi<br/>
+				<input class="filter-opt" type="checkbox" name="">Autem vel eum<br/>
+				<input class="filter-opt" type="checkbox" name="">Aliquam quaerat<br/>
+				<input class="filter-opt" type="checkbox" name="">Aspernatur aut<br/>
+				
+				<div class="fil2-hid">
+					<input class="filter-opt" type="checkbox" name="">Consequuntur magni<br/>
+					<input class="filter-opt" type="checkbox" name="">Commodi consequatur<br/>
+					<input class="filter-opt" type="checkbox" name="">Magni dolore<br/>
+					<input class="filter-opt" type="checkbox" name="">Qui dolorem<br/>
+					<input class="filter-opt" type="checkbox" name="">Veritatis<br/>
+					<input class="filter-opt" type="checkbox" name="">Explicabo<br/>
+				</div>
+				<div id="sh-mr2" class="show-more-opt" onclick="showMore(2)">Show more</div>
+			</div>
+			</div>
+
+		</div>
+		<div id="result-ground" class="col-md-8">
+			<div id="result-head">Search results</div>
+			<div id="result-pane">
+			<div class="result-type">
+				<div class="result-title">Research Facilities</div>
+				<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<img src="img/research.png" class="result-img">
+						<div class="show-more-result"> show more</div>
+					</div>
+					<div class="col-md-8">
+						<div class="result-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.	</div>
+						<div class="result-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.	</div>
+						<div class="result-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.	</div>
+					</div>
+				</div>
+				</div>
+		</div>
+		<div class="result-type">
+				<div class="result-title">Research Glimpse</div>
+				<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<img src="img/papers.png" class="result-img">
+						<div class="show-more-result"> show more</div>
+					</div>
+					<div class="col-md-8">
+						<div class="result-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.	</div>
+						<div class="result-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.	</div>
+						<div class="result-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.	</div>
+					</div>
+				</div>
+				</div>
+		</div>
+		<div class="result-type">
+				<div class="result-title">Published Papers</div>
+				<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<img src="img/research.png" class="result-img">
+						<div class="show-more-result"> show more</div>
+					</div>
+					<div class="col-md-8">
+						<div class="result-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.	</div>
+						<div class="result-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.	</div>
+						<div class="result-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.	</div>
+					</div>
+				</div>
+				</div>
+		</div>
+		<div class="result-type">
+				<div class="result-title">Patents</div>
+				<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<img src="img/papers.png" class="result-img">
+						<div class="show-more-result"> show more</div>
+					</div>
+					<div class="col-md-8">
+						<div class="result-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.	</div>
+						<div class="result-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.	</div>
+						<div class="result-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.	</div>
+					</div>
+				</div>
+				</div>
+		</div>
+		</div>
+	</div>
+</div>
+</div>
+<!-- Header End-->
+
+
+<!-- footer begin -->
+<div id="footer">
+
+	<div id="footer-sec1">
+		<div class="footer-head">Academics</div>
+			<a href="#"><li class="footer-items">Courses</li></a>
+			<a href="#"><li class="footer-items">Divisions</li></a>
+			<a href="#"><li class="footer-items">Facilities</li></a>
+			<a href="#"><li class="footer-items">Laboratory</li></a>
+
+	</div><div id="footer-sec2">
+		<div class="footer-head">Research</div>
+			<a href="#"><li class="footer-items">Divisions</li></a>
+			<a href="#"><li class="footer-items">Facilities</li></a>
+			<a href="#"><li class="footer-items">Laboratory</li></a>
+
+	</div><div id="footer-sec3">
+		<div class="footer-head">Social</div>
+			<a href="#"><li class="footer-items">Courses</li></a>
+			<a href="#"><li class="footer-items">Divisions</li></a>
+			<a href="#"><li class="footer-items">Facilities</li></a>
+			<a href="#"><li class="footer-items">Laboratory</li></a>
+	</div> 
+
+
+</div>
+<!-- footer end -->
+
+
+
+
+
+
+
+</body>
+<script type="text/javascript">
+	
+	f_1=false;
+	f_2=false;
+	function showMore(val){
+		if(val==1){
+			if(!f_1){
+				$('.fil1-hid').slideDown();
+				$("#sh-mr1").text('Show less');
+				f_1=true;
+			}else{
+				$('.fil1-hid').slideUp();
+				$("#sh-mr1").text('Show more');
+				f_1=false;
+			}
+		}else{
+			if(!f_2){
+				$('.fil2-hid').slideDown();
+				$("#sh-mr2").text('Show less');
+				f_2=true;
+			}else{
+				$('.fil2-hid').slideUp();
+				$("#sh-mr2").text('Show more');
+				f_2=false;
+			}
+		}
+	}
+</script>
+</html>
