@@ -525,3 +525,114 @@ input[type="checkbox"]{
 	text-decoration: underline;
 }
 
+
+/*-----------------------------*/
+
+
+#faculty-left{
+	background-color: #ECEFF1;
+	height: 60vw;
+}
+
+#faculty-mid{
+	background-color: #F5F5F5;
+	height: 60vw;
+}
+
+#faculty-right{
+	background-color: #F5F5F5;
+	height: 60vw;
+}
+
+#faculty-img{
+	margin-top: 10vw;
+	margin-left: 10vw;
+	width: 20vw;
+}
+
+#faculty-name{
+	text-align: center;
+	margin-top: 4vw;
+	margin-left: 0vw;
+	font-size: 1.7vw;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#faculty-dept{
+	text-align: center;
+	margin-left: 0vw;
+	font-size: 1.5vw;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#faculty-email{
+	text-align: center;
+	margin-left: 0vw;
+	font-size: 1.5vw;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#faculty-phone{
+	text-align: center;
+	margin-left: 0vw;
+	font-size: 1.5vw;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#faculty-code{
+	margin-top: 3vw;
+	margin-left: 12vw;
+	font-size: 1.2vw;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+#faculty-gsid{
+	margin-left: 12vw;
+	font-size: 1.2vw;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+#faculty-scpsid{
+	margin-left: 12vw;
+	font-size: 1.2vw;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.fac-links{
+	color: black;
+	text-decoration: underline;
+}
+
+.faculty-block-title{
+	margin-left: 6vw;
+	font-size: 1.7vw;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.faculty-block-title{
+	margin-left: 5vw;
+	font-size: 1.7vw;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.faculty-block-items{
+	margin-top: 3vw;
+	padding-left: 5vw;
+	margin-bottom: 7vw;
+}
+.faculty-block-item{
+	font-size: 1.2vw;
+	font-family: 'Roboto', sans-serif;
+}
+.fac-block-row{
+	margin-top: 10vw;
+}
+.fac-block-more{
+	color: blue;
+	margin-top: 1vw;
+	margin-left: 1.6vw;
+	font-size: 1vw;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+}
+.fac-block-more:hover{
+	text-decoration: underline;
+}
+.fac-item-hid{
+	display: none;
+}

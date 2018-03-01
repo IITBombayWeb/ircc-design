@@ -22,7 +22,7 @@
 	<input backgroung type="type" id="search-bar"></div>
 </div>
 <!-- Header End-->
-<!-- Header Begin-->
+<!-- Search Begin-->
 <div id="search-ground" class="container-fluid">
 	<div class="row">
 		<div id="filter-ground" class="col-md-4">
@@ -146,7 +146,7 @@
 	</div>
 </div>
 </div>
-<!-- Header End-->
+<!-- Search End-->
 
 
 <!-- footer begin -->
@@ -172,8 +172,6 @@
 			<a href="#"><li class="footer-items">Facilities</li></a>
 			<a href="#"><li class="footer-items">Laboratory</li></a>
 	</div> 
-
-
 </div>
 <!-- footer end -->
 
@@ -184,32 +182,4 @@
 
 
 </body>
-<script type="text/javascript">
-	
-	f_1=false;
-	f_2=false;
-	function showMore(val){
-		if(val==1){
-			if(!f_1){
-				$('.fil1-hid').slideDown();
-				$("#sh-mr1").text('Show less');
-				f_1=true;
-			}else{
-				$('.fil1-hid').slideUp();
-				$("#sh-mr1").text('Show more');
-				f_1=false;
-			}
-		}else{
-			if(!f_2){
-				$('.fil2-hid').slideDown();
-				$("#sh-mr2").text('Show less');
-				f_2=true;
-			}else{
-				$('.fil2-hid').slideUp();
-				$("#sh-mr2").text('Show more');
-				f_2=false;
-			}
-		}
-	}
-</script>
 </html>
