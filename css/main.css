@@ -666,6 +666,16 @@ input[type="checkbox"]{
 	font-size: 1.3vw;
 	font-family: 'Roboto Condensed', sans-serif;
 }
+
+#facility-caption{
+
+	width: 30vw;
+	margin: 0 auto;
+	margin-top: 5vh;
+	text-align: center;
+	font-size: 1.2vw;
+	font-family: 'Roboto', sans-serif;
+}
 #facility-loc{
 	margin-left: 11vw;
 	width: 18vw;
