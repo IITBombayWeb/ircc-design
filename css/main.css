@@ -676,6 +676,8 @@ input[type="checkbox"]{
 	font-size: 1.2vw;
 	font-family: 'Roboto', sans-serif;
 }
+
+
 #facility-loc{
 	margin-left: 11vw;
 	width: 18vw;
@@ -708,6 +710,23 @@ input[type="checkbox"]{
 	font-family: 'Roboto', sans-serif;
 	margin-bottom: 5vw;
 }
+
+#facility-market{
+	font-size: 1.07vw;
+	width: 35vw;
+	margin: 0 auto;
+	margin-top: 4vh;
+	font-family: 'Roboto', sans-serif;
+}
+
+#facility-license{
+	font-size: 1.07vw;
+	width: 35vw;
+	margin: 0 auto;
+	margin-top: 2vh;
+	font-family: 'Roboto', sans-serif;
+}
+
 .facility-block-row{
 	padding-left: 5vw;
 	padding-right: 5vw;
