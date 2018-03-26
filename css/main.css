@@ -636,3 +636,84 @@ input[type="checkbox"]{
 .fac-item-hid{
 	display: none;
 }
+
+
+/*-----------------------------*/
+
+#facility-left{
+	background-color: #ECEFF1;
+	height: 60vw;
+}
+#facility-right{
+	background-color: #F5F5F5;
+	height: 60vw;
+	overflow-y: scroll;
+}
+
+#facility-img{
+	margin-top: 13vw;
+	margin-left: 3vw;
+	width: 34vw;
+}
+#facility-contact{
+	margin-top: 5vh;
+	text-align: center;
+	font-size: 1.3vw;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+#facility-email{
+	text-align: center;
+	font-size: 1.3vw;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+#facility-loc{
+	margin-left: 11vw;
+	width: 18vw;
+	margin-top: 3vh;
+	text-align: center;
+	font-size: 1.2vw;
+	font-family: 'Roboto Condensed', sans-serif;
+
+}
+#facility-reg{
+	margin-top: 3vh;
+	text-align: center;
+	font-size: 1.2vw;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+#facility-name{
+	width: 40vw;
+	margin: 0 auto;
+	margin-top: 16vh;
+	font-size: 2vw;
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+#facility-desc{
+	font-size: 1.07vw;
+	width: 35vw;
+	margin: 0 auto;
+	margin-top: 7vh;
+	text-align: justify;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 5vw;
+}
+.facility-block-row{
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+.facility-block-title{
+	padding-left: 5vw;
+	text-align: left;
+	font-size: 1.5vw;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.facility-block-items{
+	margin-top: 2vw;
+	padding-left: 5vw;
+	margin-bottom: 3vw;
+}
+.facility-block-item{
+	font-size: 1.05vw;
+	font-family: 'Roboto', sans-serif;
+}
